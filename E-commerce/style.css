@@ -325,7 +325,7 @@ margin: 10px;
 }
 
 #sm-banner .banner-box2{
-    background-image: url("img/banner/b10.jpg");
+    background-image: url("https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
 #sm-banner h4{
     color: #fff;
@@ -367,3 +367,49 @@ margin: 10px;
     color: #088178;
 }
 
+
+#banner-3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+background-image: url("img/banner/b7.jpg");
+}
+
+#banner-3 .banner-box2{
+    background-image: url("img/banner/b4.jpg"); 
+}
+
+#banner-3 .banner-box3{
+    background-image: url("img/banner/b18.jpg"); 
+}
+
+#banner-3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner-3 h2{
+ color: white;   
+ font-weight: 900;
+ font-size: 22px;
+}
+#banner-3 h3{
+ color: rgb(255, 7, 7);   
+ font-weight: 800;
+ font-size: 15px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
