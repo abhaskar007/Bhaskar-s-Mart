@@ -794,6 +794,9 @@ align-items: flex-start;
   columns: #000;
 }
 /* cart page css */
+#cart{
+  overflow-x: auto;
+}
 #cart table{
 width: 100%;
 border-collapse: collapse;
@@ -977,9 +980,9 @@ margin-bottom: 30px;
     padding: 40px;
   }
   #form-details form {
-    width: 50%;
-    
+    width: 50%; 
 }
+
 }
 
 @media (max-width: 477px) {
@@ -1103,6 +1106,20 @@ flex-direction: column;
 #form-details form {
   width: 100%;
   margin-bottom:30px ;
+}
+/* cart page  */
+#cart-add {
+  
+  flex-direction: column;
+}
+#coupon {
+  width: 100%;
+ 
+}
+#subtotal {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0;
 }
 
 }
